@@ -79,7 +79,7 @@ body {
 
 textarea {
   height: 10vh;
-  width: 50vw;
+  width: auto;
   padding: 8px;
   background-color: transparent;
   color: #fff;
@@ -92,14 +92,40 @@ textarea {
   max-height: 200px;
 }
 
+
 @media only screen and (max-width: 600px) {
   textarea {
-    width: 70vw;
+    width: auto;
   }
   .chat-container {
-    width: 80vw;
+    width: auto;
   }
 }
+@media only screen and (max-width: 900px) {
+  textarea {
+    width: auto;
+  }
+  .chat-container {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  textarea {
+    width: auto;
+  }
+  .chat-container {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 180000px) {
+  textarea {
+    width: auto;
+  }
+  .chat-container {
+    width: auto;
+  }
+}
+
 
 .error-message {
   background-color: #ffcccc;
@@ -440,4 +466,3 @@ footer {
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.5); 
 }
-

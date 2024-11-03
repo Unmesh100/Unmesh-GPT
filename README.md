@@ -27,9 +27,11 @@ Unmesh GPT is an open-source AI chat bot powered by Google's Generative AI. Enga
    `git clone https://github.com/Unmesh100/Unmesh-GPT.git`
 2. Get you api key from https://makersuite.google.com/app/apikey
 
- 
+   ![image](https://github.com/user-attachments/assets/486f86c6-bfd1-4c24-ae0e-f62a0326cc01)
 
-   and replace with your api key
+
+ 
+   And replace with your api key .
 4. Install dependencies:
    `npm install`
 5. Start the development server:
